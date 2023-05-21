@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-zone {
+    margin-top: 5%;
+}
+
+.board-zone {
+    margin-top: 5%;
+}

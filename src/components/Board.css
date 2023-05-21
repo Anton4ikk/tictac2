@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.winner {
+    margin-top: 5%;
+}
+
+.board {
+    margin-top: 5%;
+    display: grid;
+    --side: 3;
+    grid-template-columns: repeat(var(--side), 1fr);
+    width: calc(var(--side) * 100px);
+}
+
+.repeater {
+    margin-top: 5%;
+}
+
+.side {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.reset3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.reset4 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.reset {
+    margin-top: 5%;
+}
